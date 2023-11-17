@@ -1,0 +1,49 @@
+.weather-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    width: 140vh;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 4%;
+}
+
+.gradosIcon {
+    display: flex;
+    flex-direction: row;
+    margin-right: 43px; /* Puedes ajustar este margen según tus necesidades */
+}
+
+.grados {
+    font-size: 13vh;
+    font-family: 'Noto Sans Kawi', sans-serif;
+}
+
+.iconContainer {
+    margin-left: 12%;
+    margin-top: 43%;
+}
+
+.localidad {
+    margin: -80px;
+    font-size: 23px;
+  font-family: 'Noto Sans Kawi', sans-serif;
+}
+
+.right {
+    margin-top: 22.5%;
+    margin-right: 4%;
+}
+
+.tiempo {
+    font-size: 23px;
+  font-family: 'Noto Sans Kawi', sans-serif;
+
+}

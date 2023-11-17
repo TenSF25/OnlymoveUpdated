@@ -1,0 +1,35 @@
+.task-table {
+    width: 100%;
+    border-spacing: 0;
+    margin-top: 20px;
+  }
+
+  .task-table thead tr {
+    color: #7c7d78;
+  }
+  
+  .task-table th,
+  .task-table td {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 7px;
+    text-align: left;
+  }
+  
+  .task-table th {
+    font-weight: 600;
+  }
+  
+  .task-table tbody tr {
+    color: #000;
+  }
+
+  .task-table tbody tr:hover {
+    background-color: #e0edfb;
+  }
+
+  .task-table p {
+    font-style: italic;
+    color: #888;
+    margin-top: 10px;
+  }
+  
