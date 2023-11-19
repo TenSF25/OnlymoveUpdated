@@ -1,0 +1,81 @@
+.statsContainer {
+  width: 55vh;
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  border: 2px solid #ababcb;
+  background: #fff;
+  justify-content: space-around;
+  height: 27vh;
+}
+
+.leftStats,
+.rightStats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.line-vertic {
+  height: 90%; /* Ajusta la altura según tus necesidades */
+  border-left: 2px solid #ababcb; /* Establece el grosor y color de la línea vertical */
+  margin-left: -5%;
+  margin-top: 2.5%;
+}
+
+.humidity,
+.uv,
+.wind,
+.clouds {
+  display: flex;
+  flex-direction: row;
+}
+
+.humidity, .uv {
+    justify-content: space-evenly;
+}
+
+.wind, .clouds {
+    justify-content: space-around;
+}
+
+.humidityImg {
+  position: relative;
+  top: 28%;
+  width: 22%;
+  height: 56%;
+  flex-shrink: 0;
+}
+
+.sunnyImg {
+  margin-top: 25px;
+  width: 30%;
+  height: 56%;
+}
+
+.windImg,
+.cloudImg {
+  width: 27%;
+  margin-top: 6%;
+}
+
+h5 {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 109.091% */
+  text-align: left;
+}
+
+h6 {
+  margin-top: -25px;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1px; /* 178.571% */
+  text-align: left;
+}

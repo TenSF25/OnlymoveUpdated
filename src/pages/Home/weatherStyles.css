@@ -3,9 +3,10 @@
     align-items: center;
     justify-content: space-between;
     background-color: lightblue;
-    width: 140vh;
+    width: 151vh;
     height: 40vh;
     border-radius: 20px;
+    box-shadow: 0px 70px 100px 3px rgba(131, 147, 254, 0.486);
 }
 
 .left {
@@ -38,12 +39,66 @@
 }
 
 .right {
-    margin-top: 22.5%;
+    margin-top: 19%;
     margin-right: 4%;
 }
 
-.tiempo {
+.hora {
+    margin-right: -79px;
     font-size: 23px;
   font-family: 'Noto Sans Kawi', sans-serif;
+}
 
+.tiempo {
+    margin-top: -30px;
+    font-size: 23px;
+    font-family: 'Noto Sans Kawi', sans-serif;
+
+}
+
+.containerDown {
+    display: flex;
+    flex-direction: row;
+  margin-top: 7.5%;
+
+}
+
+@media screen and (max-width: 1628px) {
+    .weather-container {
+        width: 140vh;
+    }
+
+    .containerDown {
+        width: 140vh;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .weather-container {
+        width: 130vh;
+    }
+
+    .containerDown {
+        width: 130vh;
+    }
+}
+
+@media screen and (max-width: 1468px) {
+    .weather-container {
+        width: 120vh;
+    }
+
+    .containerDown {
+        width: 120vh;
+    }
+}
+
+@media screen and (max-width: 1326px) {
+    .weather-container {
+        width: 110vh;
+    }
+
+    .containerDown {
+        width: 110vh;
+    }
 }

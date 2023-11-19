@@ -28,6 +28,13 @@ const Cloudy = ({ weatherData, time, date, timeOfDay }) => {
           </h4>
         </div>
         <div className="right">
+          <h4 className="hora">{time && (
+            parseInt(time) >= 12 ? (
+              <span>{time} PM</span>
+            ) : (
+              <span>{time} AM</span>
+            )
+          )}</h4>
           <h4 className="tiempo">
             {weatherData.current.condition.text}, {date}
           </h4>

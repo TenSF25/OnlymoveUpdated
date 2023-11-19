@@ -1,0 +1,31 @@
+.containerHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .nav {
+    margin-left: -24%;
+} */
+
+.weather {
+    margin-left: -2.3%;
+}
+
+@media screen and (max-width: 1628px) {
+    .weather {
+        margin-left: 1%;
+    }
+  }
+
+  @media screen and (max-width: 1560px) {
+    .weather {
+        margin-left: 2.5%;
+    }
+}
+  
+@media screen and (max-width: 1628px) {
+    .weather {
+        margin-left: 3.3%;
+    }
+}

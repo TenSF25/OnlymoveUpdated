@@ -10,7 +10,7 @@
   
   .task-table th,
   .task-table td {
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 2px solid #ABABCB;
     padding: 7px;
     text-align: left;
   }
@@ -24,7 +24,7 @@
   }
 
   .task-table tbody tr:hover {
-    background-color: #e0edfb;
+    background-color: #e0edfba4;
   }
 
   .task-table p {

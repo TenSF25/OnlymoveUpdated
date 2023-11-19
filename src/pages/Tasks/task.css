@@ -1,0 +1,14 @@
+.taskContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* .nav {
+    margin-left: -67%;
+} */
+
+.tasks {
+    margin-left: 14.5%;
+    margin-top: 8%;
+}

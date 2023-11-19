@@ -6,6 +6,17 @@
   text-align: center;
 }
 
+.containerApp {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
